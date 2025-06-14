@@ -36,7 +36,7 @@ export default function RootLayout({ children }) {
             {/* footer */}
             <footer className="bg-muted/50 py-12">
               <div className="container mx-auto px-4 text-center text-gray-200">
-                <p>"Simplifying complexity, one feature at a time."</p>
+                <p>{`"Simplifying complexity, one feature at a time."`}</p>
               </div>
             </footer>
           </ThemeProvider>
