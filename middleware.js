@@ -15,6 +15,7 @@ const isProtectedRoute = createRouteMatcher([
     if (!userId && isProtectedRoute(req)) {
       const { redirectToSignIn } = await auth();
       return redirectToSignIn();
+      //return redirectToSignIn({ returnBackUrl: req.url });
     }
   
     return NextResponse.next();
