@@ -15,7 +15,7 @@ import { ArrowRight } from "lucide-react";
 export default function Home() {
   return (
     <div>
-      <div className="grid-background"></div>
+      <div className="grid-background "></div>
       <HeroSection />
 
       <section className="w-full py-12 md:py-25 lg:py-32 bg-background">
@@ -155,7 +155,7 @@ export default function Home() {
       </section>
 
 
-      <section className="w-full py-12 md:py-25 lg:py-32 bg-background">
+      <section className="w-full py-12 md:py-25 lg:py-32 bg-background" id="faqs">
         <div className="container mx-auto px-4 md:px-6">
           <div className="text-center max-w-3xl mx-auto mb-12">
             <h2 className="text-3xl font-bold mb-4">
@@ -182,8 +182,8 @@ export default function Home() {
       
 
 
-      <section className="w-full">
-        <div className="mx-auto py-24 gradient rounded-lg">
+      <section className="w-full bg-white/80">
+        <div className="mx-auto py-24 rounded-lg">
           <div className="flex flex-col items-center justify-center space-y-4 text-center max-w-3xl mx-auto">
             <h2 className="text-3xl font-bold tracking-tighter text-primary-foreground sm:text-4xl md:text-5xl">
               Ready to Elevate Your Career?
