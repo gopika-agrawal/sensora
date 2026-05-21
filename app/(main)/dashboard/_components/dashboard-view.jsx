@@ -152,8 +152,8 @@ const DashboardView = ({ insights }) => {
           </CardDescription>
         </CardHeader>
         <CardContent>
-          <div className="h-[400px]">
-            <ResponsiveContainer width="100%" height="100%">
+          <div className="w-full overflow-hidden">
+            <ResponsiveContainer width="99%" height={400}>
               <BarChart data={salaryData}>
                 <CartesianGrid strokeDasharray="3 3" />
                 <XAxis dataKey="name" />
